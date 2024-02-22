@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+* {
+    font-family: 'Salsa', cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 1.2em;
+}
+
+.reg {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.reg-ipDiv {
+    padding: 15px 0 0;
+    margin: 15px 0;
+}
+
+.reg-field {
+    padding: 10px;
+    width: 30%;
+    border: 0;
+    font-size: 0.8em;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.35);
+}
+
+.reg-btnDiv {
+    width: 50%;
+    margin: auto;
+}
+
+.reg-btn {
+    height: 1.5em;
+    font-size: 1em;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.35);
+}
+
+.reg-btn:hover {
+    background-color: rgb(17, 71, 208);
+    color: aliceblue;
+}
+
+.reg-switch {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.home {
+    font-size: 1.3em;
+}
+
+.home-menu {
+    display: flex;
+}
+
+.home-menu li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.home-showDiv {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.leftShow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.leftShow div {
+    margin: 40px 0;
+}
+
+.showGet {
+    font-size: 1.2em;
+}
+
+.bookBtn {
+    font-size: 1.4em;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.smallShow {
+    font-size: 0.8em;
+}
+
+.home-showDiv img {
+    height: 50%;
+    width: 35%;
+    margin: 0 70px;
+}
+
+.home-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 20vh;
+}
+
+.home-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.home-stepsDiv {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+
+.home-stepsDiv div{
+    margin: 0 80px;
+}
+
+.home-step {
+    height: 140px;
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+    border: 2px solid violet;
+}
+
+.home-searchDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.home-searchDiv input {
+    margin: 0 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.home-searchDiv button {
+    font-size: 1.3em;
+    border-radius: 20px;
+}
+
+.home-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    border: 2px solid black;
+}
+
+.home-slotDiv{
+    margin-top: 30px;
+}
+
+.home-slotDiv button {
+    font-size: 1.3em;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.centre {
+    min-height: 100vh;
+}
+
+.centre-h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.centre-div {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.centre-searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    margin: 20px 0;
+}
+
+.centre-searchIp {
+    display: flex;
+    gap: 40px;
+    font-size: 0.9em;
+}
+
+.centre-searchIp span select {
+    font-size: 1em;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.centre-searchIp button {
+    font-size: 1em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.centre-tableDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
+
+th,
+td {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.centreDetails h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.centrePage {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.left {
+    width: 50%;
+    height: 40vh;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 40vh;
+}
+
+
+.location {
+    font-size: 1.2em;
+    margin-left: 5px;
+
+}
+
+.firstDiv {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 1.3em;
+}
+
+.firstDiv div {
+    margin: 0 20px;
+}
+
+.slotDetails {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.bookDiv {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.gridContainer {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.gridItem {
+    height: 20vh;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridItem div {
+    margin: 7px 0;
+    font-size: 1.2em;
+}
+
+.description {
+    min-height: 100vh;
+}
+
+.slotBtn {
+    margin-top: 10px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.generalDiv {
+    width: 70%;
+    margin: auto;
+}
+
+.generalDiv h3 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.generalDiv li {
+    list-style-type: disc;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.dashboard h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome {
+    font-size: 1.5em;
+}
+
+.head {
+    margin-top: 30px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.incBtn,
+.decBtn {
+    cursor: pointer;
+    margin: 0 7px;
+    font-size: 1.2em;
+}
+
+.addForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addhead {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.add-box {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.add-ip {
+    font-size: 1em;
+    padding: 5px;
+}
+
+.addBtn {
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDiv img {
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard{
+    min-height: 100vh;
+}
+
+.noDashboard{
+    min-height: 100vh;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3vh;
+}
